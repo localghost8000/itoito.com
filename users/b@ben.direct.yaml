@@ -1,0 +1,14 @@
+name: 'Ben Loeffler'
+super: true
+id: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
+password_hash: $2y$10$o1Uoz2xdV2i3Ee..X4o3z.OYTmY.grKQc.VHC5SCaiSdzCxMxRoeO
+preferences:
+  collections:
+    clients:
+      columns:
+        - title
+        - client_script
+        - photography
+        - status
+    magic:
+      after_save: continue_editing

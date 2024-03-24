@@ -1,0 +1,22 @@
+{{#
+    @name Header
+    @desc The sites header rendered on each page.
+#}}
+
+<!-- /layout/_header.antlers.html -->
+<div class="">
+    <div class="pt-4 md:pt-6 grid grid-cols-12 lg:pt-3 lg:px-6 lg:h-[60px]">
+        <div class="col-span-12 xl:col-span-9 3xl:col-span-7">
+            <div class="flex justify-between gap-x-4 items-center text-xs md:text-base 3xl:text-lg 4xl:text-xl uppercase leading-none pb-4 md:pb-6 lg:pb-0">
+                <span class="text-left font-sans leading-tight">{{ meta:tagline }}</span>
+                <span class="text-right font-sans leading-tight hover:bg-green">{{ meta:contact }}</span>
+            </div>
+        </div>
+    </div>
+    <div class="lg:mx-px border-b border-black h-px"></div>
+</div>
+<div class="mt-4 lg:mt-6 lg:pt-3 lg:pr-16 lg:pl-6">
+    <h1 class="sr-only">{{ meta:site_name }}</h1>
+    {{ partial:components/logo }}
+</div>
+<!-- End: /layout/_header.antlers.html -->

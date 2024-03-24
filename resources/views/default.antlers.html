@@ -1,0 +1,34 @@
+<main id="content">
+  {{ section:left_content }}
+    {{ partial:partials/description margin_class="my-4 lg:mb-0 lg:mt-24" visibility_class="" }}
+  {{ /section:left_content }}
+  {{ section:right_content }}
+    <ul class="font-sane leading-none text-base lg:text-xl 3xl:text-2xl">
+      {{ collection from="clients" sort="order" paginate="false" }}
+      <li>
+        <a href="{{ url }}" class="flex flex-col hover:bg-green">
+          {{ if first }}
+            <hr class="lg:hidden border-black h-px mx-px w-full" />
+          {{ /if }}
+          <div class="flex items-center">
+            <div class="h-14 flex">
+              {{ if order }}
+                <div class="flex items-center justify-center h-14 w-14">
+                  {{ if order < 10 }}
+                    <div>0{{ order }}</div>
+                  {{ else }}
+                    <div>{{ order }}</div>
+                  {{ /if }}
+                </div>
+              {{ /if }}
+              <div class="border-r border-black h-[54px] mt-px w-px"></div>
+            </div>
+            <p class="px-4">{{ title }}</p>
+          </div>
+          <hr class="border-black h-px mx-px w-full" />
+        </a>
+      </li>
+      {{ /collection }}
+    </ul>
+  {{ /section:right_content }}
+</main>

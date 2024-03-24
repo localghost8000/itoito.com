@@ -1,0 +1,25 @@
+@layer base {
+    @font-face {
+        font-family: "Europa Grotesk";
+        font-weight: 400;
+        font-display: block;
+        src: url("/resources/fonts/EuropaGroteskNr2SB-Medium.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "Monument Grotesk";
+        font-display: block;
+        src: url("/resources/fonts/MonumentGrotesk.woff2") format("woff2 supports variations"),
+             url("/resources/fonts/MonumentGrotesk.woff2") format("woff2-variations"),
+             url("/resources/fonts/MonumentGrotesk.woff2") format('woff2') tech('variations');
+        font-weight: 100 1000;
+      }
+}
+
+@layer components {
+
+}
+
+@layer utilities {
+
+}

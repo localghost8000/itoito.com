@@ -1,0 +1,48 @@
+{{# @name Breadcrumbs @desc The sites main navigation rendered on each page. #}}
+<div>
+  <div class="relative flex items-center text-base px-[18px] md:px-[72px] lg:px-0 md:text-lg lg:text-xl 3xl:text-2xl lg:h-[60px]">
+    <ul class="relative z-10 flex items-center">
+      {{ nav:breadcrumbs }}
+        {{ if first }}
+          {{ if is_current }}
+            <li class="px-2 py-3">{{ title }}</li>
+          {{ else }}
+            <li class="h-[60px]">
+              <a class="h-[60px] flex items-center px-2 hover:bg-green" href="{{ url }}">
+                <span>{{ title }}</span>
+              </a>
+            </li>
+          {{ /if }}
+        {{ else }}
+          {{ if is_current }}
+            <li class="flex items-center w-full">
+              <div class="flex items-center">
+                <span class="mx-px">/</span>
+                <span class="current px-2 py-4">{{ title }}</span>
+              </div>
+            </li>
+          {{ else }}
+            <li class="flex items-center">
+              <span class="mx-px">/</span>
+              <a class="px-2 py-4" href="{{ url }}">{{ title }}</a>
+            </li>
+          {{ /if }}
+        {{ /if }}
+      {{ /nav:breadcrumbs }}
+    </ul>
+    {{# Client order number #}}
+    {{ unless is_homepage }}
+      {{ if order }}
+        <div class="relative z-10 ml-auto px-2 py-3">
+          {{ if order < 10 }}
+            <span>0{{ order }}</span>
+          {{ else }}
+            <span>{{ order }}</span>
+          {{ /if }}
+        </div>
+      {{ /if }}
+    {{ /unless }}
+    {{ partial:statamic-peak-tools::components/picture :image="texture:texture" cover="true" class="absolute z-0 inset-0 w-full h-full pointer-events-none" sizes="(min-width: 1280px) 1280px, (min-width: 768px) 100vw, 100vw" }}
+  </div>
+  <div class="lg:mx-px border-b border-black h-px"></div>
+</div>

@@ -1,0 +1,47 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: tagline
+            field:
+              antlers: false
+              type: textarea
+              display: Tagline
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: contact
+            field:
+              buttons:
+                - anchor
+              smart_typography: false
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              reading_time: false
+              word_count: false
+              fullscreen: false
+              allow_source: false
+              enable_input_rules: false
+              enable_paste_rules: false
+              remove_empty_nodes: true
+              antlers: false
+              link_noopener: true
+              link_noreferrer: true
+              target_blank: true
+              always_show_set_button: false
+              collapse: false
+              previews: true
+              type: bard
+              display: Contact
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false

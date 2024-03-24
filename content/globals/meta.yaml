@@ -1,0 +1,34 @@
+title: Meta
+data:
+  contact:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: 'For inquiries '
+        -
+          type: hardBreak
+        -
+          type: text
+          marks:
+            -
+              type: link
+              attrs:
+                href: email@itoito.com
+                rel: null
+                target: null
+                title: null
+          text: email@itoito.com
+  tagline:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: 'Commercial and residential'
+        -
+          type: hardBreak
+        -
+          type: text
+          text: 'plant design and landscaping'
