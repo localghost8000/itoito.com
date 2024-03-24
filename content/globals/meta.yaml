@@ -1,25 +1,5 @@
 title: Meta
 data:
-  contact:
-    -
-      type: paragraph
-      content:
-        -
-          type: text
-          text: 'For inquiries '
-        -
-          type: hardBreak
-        -
-          type: text
-          marks:
-            -
-              type: link
-              attrs:
-                href: email@itoito.com
-                rel: null
-                target: null
-                title: null
-          text: email@itoito.com
   tagline:
     -
       type: paragraph
@@ -32,3 +12,5 @@ data:
         -
           type: text
           text: 'plant design and landscaping'
+  contact: 'For inquiries'
+  email: hello@itoito.com
