@@ -4,13 +4,13 @@
   {{ /section:left_content }}
 
   {{ section:right_content }}
-    <div class="flex flex-col gap-y-4 md:gap-y-6 lg:gap-y-2 py-4 md:py-6 lg:py-2">
+    <div class="flex flex-col py-4 md:py-6 lg:py-2">
       {{ photography limit="1" }}
         <div>
           <figure class="lg:px-2">
             {{ partial src="statamic-peak-tools::components/picture" class="w-full h-auto" :image="url" cover="false" sizes="(min-width: 1024px) 35vw, 100vw" lazy="true" }}
           </figure>
-          <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px mt-2"></div>
+          <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px my-2"></div>
         </div>
       {{ /photography }}
 
@@ -22,7 +22,7 @@
             {{ partial src="statamic-peak-tools::components/picture" class="w-full h-auto" :image="url" cover="false" sizes="(min-width: 1024px) 35vw, 100vw" lazy="true" }}
           </figure>
           {{ if !last }}
-            <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px mt-2"></div>
+            <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px my-2"></div>
           {{ /if }}
         </div>
       {{ /photography }}
