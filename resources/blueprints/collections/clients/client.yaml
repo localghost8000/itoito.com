@@ -24,8 +24,8 @@ tabs:
             field:
               max_files: 1
               mode: grid
-              container: written_text
-              restrict: false
+              container: images
+              restrict: true
               allow_uploads: true
               show_filename: true
               show_set_alt: false
@@ -36,6 +36,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              folder: writing
           -
             handle: description
             field:
@@ -54,8 +55,8 @@ tabs:
             field:
               max_files: 1
               mode: grid
-              container: scribbles
-              restrict: false
+              container: images
+              restrict: true
               allow_uploads: true
               show_filename: true
               show_set_alt: false
@@ -66,6 +67,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              folder: scribbles
   photography:
     display: Photography
     sections:
