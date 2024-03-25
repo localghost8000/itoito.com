@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Benton
+  exempt_from_alt: false
 size: 185537
 last_modified: 1711317462
 width: 2680

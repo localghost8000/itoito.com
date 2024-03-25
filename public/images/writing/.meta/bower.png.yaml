@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'The Bower'
+  exempt_from_alt: false
 size: 222947
 last_modified: 1711317463
 width: 3274

@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Summa Equity'
+  exempt_from_alt: false
 size: 330453
 last_modified: 1711317465
 width: 2754

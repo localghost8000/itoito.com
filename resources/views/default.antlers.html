@@ -30,5 +30,13 @@
       </li>
       {{ /collection }}
     </ul>
+    <!-- Invisible div for spacing -->
+    <div class="block lg:hidden aspect-video"></div>
+    <!-- Absolutely positioned scribble -->
+    <div class="block lg:hidden absolute z-0 bottom-0 left-0 w-full">
+      <div class="aspect-video overflow-hidden">
+        {{ partial:statamic-peak-tools::components/picture :image="scribble" class="w-full h-full object-cover object-top" sizes="(min-width: 1280px) 980px, (min-width: 768px) 50vw, 100vw" }}
+      </div>
+    </div>
   {{ /section:right_content }}
 </main>

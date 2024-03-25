@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Sightglass Coffee'
+  exempt_from_alt: false
 size: 323899
 last_modified: 1711317465
 width: 3028
