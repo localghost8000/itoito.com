@@ -22,7 +22,7 @@ APP_NAME="ITO ITO"
 APP_ENV=production
 APP_KEY="base64:eGa3NKn7TE+18sGJMT9TOuszrjs1q3PPiVArdiT7mfI="
 APP_DEBUG=false
-APP_URL=
+APP_URL=itoito.com.test
 
 DEBUGBAR_ENABLED=false
 
