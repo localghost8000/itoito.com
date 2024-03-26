@@ -1,6 +1,8 @@
 <main id="content">
   {{ section:left_content }}
-    {{ partial:partials/description margin_class="" visibility_class="hidden lg:block" }}
+    <div class="{{ if client_script }}mt-0{{else}}lg:mt-16{{ /if }} hidden lg:block">
+      {{ partial:partials/description }}
+    </div>
   {{ /section:left_content }}
 
   {{ section:right_content }}
@@ -12,8 +14,9 @@
           </figure>
           <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px my-2"></div>
       {{ /photography }}
-
-      {{ partial:partials/description margin_class="" visibility_class="lg:hidden" }}
+      <div class="lg:hidden">
+        {{ partial:partials/description }}
+      </div>
 
       {{ photography offset="1" }}
         <figure class="lg:px-2">

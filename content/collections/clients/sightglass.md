@@ -8,5 +8,6 @@ photography:
   - client-sightglass/crookednest-sightglass-02.jpg
   - client-sightglass/crookednest-sightglass-03.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1711468058
+updated_at: 1711468292
+client_script: writing/sightglass.png
 ---
