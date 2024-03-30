@@ -2,7 +2,7 @@
 id: 8d3bc35c-f96c-44e5-af89-b1b4f72964d1
 blueprint: client
 title: Verve
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+description: "Verve's bustling Palo Alto outpost is a modern industrial space with a variety of planted applications. [plant] and [plant] populate a sunlit interior awning that runs the length of the entry wall, while [plant] cascades down toward a custom bench planted with monstera. Rough-hewn concrete pots made in collaboration with [artist?] accent the space with added flora."
 photography:
   - client-verve/crookednest-verve-01.jpg
   - client-verve/crookednest-verve-02.jpg
@@ -17,7 +17,7 @@ photography:
   - client-verve/crookednest-verve-11.jpg
   - client-verve/crookednest-verve-12.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1711761597
+updated_at: 1711766167
 client_script: writing/verve.png
 scribble: scribbles/black-scribble-11.png
 ---
