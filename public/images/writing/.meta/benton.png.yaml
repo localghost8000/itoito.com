@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'The Benton'
+  exempt_from_alt: false
 size: 183619
 last_modified: 1711468225
 width: 2606

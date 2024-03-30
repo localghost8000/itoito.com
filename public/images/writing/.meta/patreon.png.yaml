@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Patreon
+  exempt_from_alt: false
 size: 161879
 last_modified: 1711468228
 width: 2061

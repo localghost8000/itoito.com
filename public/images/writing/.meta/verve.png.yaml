@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Verve Coffee'
+  exempt_from_alt: false
 size: 140692
 last_modified: 1711468230
 width: 1913

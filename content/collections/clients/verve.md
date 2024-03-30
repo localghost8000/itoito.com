@@ -17,6 +17,7 @@ photography:
   - client-verve/crookednest-verve-11.jpg
   - client-verve/crookednest-verve-12.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1711468297
+updated_at: 1711761597
 client_script: writing/verve.png
+scribble: scribbles/black-scribble-11.png
 ---

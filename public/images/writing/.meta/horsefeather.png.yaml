@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Horsefeather
+  exempt_from_alt: false
 size: 285980
 last_modified: 1711468228
 width: 3173

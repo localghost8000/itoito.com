@@ -10,5 +10,6 @@ preferences:
         - client_script
         - photography
         - status
+        - scribble
     magic:
       after_save: continue_editing

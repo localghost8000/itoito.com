@@ -18,6 +18,7 @@ photography:
   - client-patreon/crookednest-patreon-12.jpg
   - client-patreon/crookednest-patreon-13.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1711468285
+updated_at: 1711761526
 client_script: writing/patreon.png
+scribble: scribbles/blue-bright-scribble-05.png
 ---

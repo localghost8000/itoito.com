@@ -12,6 +12,7 @@ photography:
   - client-horsefeather/horsefeather-ito-ito-06.jpg
   - client-horsefeather/horsefeather-ito-ito-07.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1711468253
+updated_at: 1711761398
 client_script: writing/horsefeather.png
+scribble: scribbles/green-dark-scribble-05.png
 ---

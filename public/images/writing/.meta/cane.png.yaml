@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: CANE
+  exempt_from_alt: false
 size: 203938
 last_modified: 1711468227
 width: 2735
