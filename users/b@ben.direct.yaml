@@ -9,7 +9,7 @@ preferences:
         - title
         - client_script
         - photography
-        - status
         - scribble
+        - status
     magic:
       after_save: continue_editing
