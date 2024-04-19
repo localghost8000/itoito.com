@@ -6,5 +6,5 @@ data:
   display_standalone: false
   use_theme_color: false
   use_favicons: true
-  svg: favicon.svg
-  background: '#072E64'
+  svg: favi.svg
+  background: '#062449'
