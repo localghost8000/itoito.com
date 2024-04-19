@@ -5,9 +5,47 @@
 
 {{# Redirect if current_url is in the Redirects global. #}}
 {{ partial:statamic-peak-seo::errors/redirects }}
-
+{{ section:left_content }}
+<div class="my-4 lg:mb-0 lg:mt-16">
+{{ partial:partials/description }}
+</div>
+{{ section:right_content }}
+<ul class="font-sans leading-none text-base md:text-xl 3xl:text-2xl 4xl:text-3xl">
+  {{ collection from="clients" sort="order" paginate="false" }}
+  <li>
+    <a href="{{ url }}" class="flex flex-col hover:bg-green">
+      {{ if first }}
+        <hr class="lg:hidden border-black h-px mx-px w-full" />
+      {{ /if }}
+      <div class="flex items-center">
+        <div class="h-14 3xl:h-20 flex">
+          {{ if order }}
+            <div class="flex items-center justify-center h-14 w-14 3xl:h-20 3xl:w-20">
+              {{ if order < 10 }}
+                <div>0{{ order }}</div>
+              {{ else }}
+                <div>{{ order }}</div>
+              {{ /if }}
+            </div>
+          {{ /if }}
+          <div class="border-r border-black h-[54px] 3xl:h-[78px] mt-px w-px"></div>
+        </div>
+        <p class="px-4">{{ title }}</p>
+      </div>
+      <hr class="border-black h-px mx-px w-full" />
+    </a>
+  </li>
+  {{ /collection }}
+</ul>
+<!-- Invisible div for spacing -->
+<div class="block lg:hidden aspect-video"></div>
+<!-- Absolutely positioned scribble -->
+<div class="block lg:hidden absolute z-0 bottom-0 left-0 w-full user-select-none pointer-events-none">
+  <div class="aspect-video overflow-hidden">
+    {{ partial:statamic-peak-tools::components/picture :image="scribble" class="w-full h-full object-cover object-top" sizes="(min-width: 1280px) 980px, (min-width: 768px) 50vw, 100vw" }}
+  </div>
+</div>
+{{ /section:right_content }}
+{{ /section:left_content }}
 <!-- /errors/404.antlers.html -->
-<main class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24" id="content">
-    {{ partial:statamic-peak-seo::errors/entry_content }}
-</main>
 <!-- End: /errors/404.antlers.html -->
