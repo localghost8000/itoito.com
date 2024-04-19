@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'The Hadley'
+  exempt_from_alt: false
 size: 300529
 last_modified: 1711818905
 width: 2882

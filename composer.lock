@@ -5264,16 +5264,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.55.0",
+            "version": "v4.57.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "208cdeda1c7bef4669e43ee7274db06504be0de6"
+                "reference": "d4e00f96bfa1b6eb2eaefdf0649d826b1f2ba560"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/208cdeda1c7bef4669e43ee7274db06504be0de6",
-                "reference": "208cdeda1c7bef4669e43ee7274db06504be0de6",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d4e00f96bfa1b6eb2eaefdf0649d826b1f2ba560",
+                "reference": "d4e00f96bfa1b6eb2eaefdf0649d826b1f2ba560",
                 "shasum": ""
             },
             "require": {
@@ -5356,7 +5356,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.55.0"
+                "source": "https://github.com/statamic/cms/tree/v4.57.0"
             },
             "funding": [
                 {
@@ -5364,7 +5364,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-27T16:54:49+00:00"
+            "time": "2024-04-17T20:22:09+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -5480,16 +5480,16 @@
         },
         {
             "name": "studio1902/statamic-peak-commands",
-            "version": "v7.3.0",
+            "version": "v7.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studio1902/statamic-peak-commands.git",
-                "reference": "318b9841959c1d467c4899a6df5840209a932ef9"
+                "reference": "9720dde194b81e7465b0eb1bc0feaa0b464d9408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-commands/zipball/318b9841959c1d467c4899a6df5840209a932ef9",
-                "reference": "318b9841959c1d467c4899a6df5840209a932ef9",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-commands/zipball/9720dde194b81e7465b0eb1bc0feaa0b464d9408",
+                "reference": "9720dde194b81e7465b0eb1bc0feaa0b464d9408",
                 "shasum": ""
             },
             "require": {
@@ -5516,7 +5516,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/studio1902/statamic-peak-commands/issues",
-                "source": "https://github.com/studio1902/statamic-peak-commands/tree/v7.3.0"
+                "source": "https://github.com/studio1902/statamic-peak-commands/tree/v7.5.0"
             },
             "funding": [
                 {
@@ -5524,20 +5524,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-17T11:32:10+00:00"
+            "time": "2024-04-10T09:12:16+00:00"
         },
         {
             "name": "studio1902/statamic-peak-seo",
-            "version": "v8.9.0",
+            "version": "v8.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studio1902/statamic-peak-seo.git",
-                "reference": "51d9bcaf4a5808b4d750a7bcb102710f1213eb37"
+                "reference": "925b38076c034361418f9df2391f42c3adf86022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/51d9bcaf4a5808b4d750a7bcb102710f1213eb37",
-                "reference": "51d9bcaf4a5808b4d750a7bcb102710f1213eb37",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-seo/zipball/925b38076c034361418f9df2391f42c3adf86022",
+                "reference": "925b38076c034361418f9df2391f42c3adf86022",
                 "shasum": ""
             },
             "require": {
@@ -5563,7 +5563,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "support": {
                 "issues": "https://github.com/studio1902/statamic-peak-seo/issues",
-                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v8.9.0"
+                "source": "https://github.com/studio1902/statamic-peak-seo/tree/v8.10.0"
             },
             "funding": [
                 {
@@ -5571,7 +5571,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-21T15:23:57+00:00"
+            "time": "2024-04-03T08:48:24+00:00"
         },
         {
             "name": "studio1902/statamic-peak-tools",
