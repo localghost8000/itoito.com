@@ -27,7 +27,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1713502850
+updated_at: 1713508170
 scribble: scribbles/tri-color-dark-scribble-04.png
 description: "The page you're looking for seems to be missing..."
 parent: home

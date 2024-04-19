@@ -19,7 +19,7 @@ photography:
   - client-the-hadley/the-hadley-ito-ito-13.jpg
   - client-the-hadley/the-hadley-ito-ito-14.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1711818908
+updated_at: 1713508192
 scribble: scribbles/black-scribble-01.png
 client_script: writing/the-hadley.png
 ---
