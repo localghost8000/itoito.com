@@ -1,0 +1,27 @@
+<ul class="font-sans leading-none text-base md:text-xl 3xl:text-2xl 4xl:text-3xl overflow-hidden {{ unless is_homepage || response_code === 404 }}mt-2{{ /unless }}">
+  {{ collection from="clients" sort="order" paginate="false" url:not="{ url }" }}
+    <li>
+      <a href="{{ url }}" class="flex flex-col hover:bg-green">
+        {{ if first }}
+          <hr class="{{ if is_homepage || response_code === 404 }}lg:hidden{{ /if }} border-black h-px mx-px" />
+        {{ /if }}
+        <div class="flex items-center">
+          <div class="h-14 3xl:h-20 flex">
+            {{ if order }}
+              <div class="flex items-center justify-center h-14 w-14 3xl:h-20 3xl:w-20">
+                {{ if order < 10 }}
+                  <div>0{{ order }}</div>
+                {{ else }}
+                  <div>{{ order }}</div>
+                {{ /if }}
+              </div>
+            {{ /if }}
+            <div class="border-r border-black h-\[54px\] 3xl:h-\[78px\] mt-px w-px"></div>
+          </div>
+          <p class="px-4">{{ title }}</p>
+        </div>
+        <hr class="border-black h-px mx-px" />
+      </a>
+    </li>
+  {{ /collection }}
+</ul>

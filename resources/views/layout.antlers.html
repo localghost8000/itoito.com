@@ -16,7 +16,7 @@
   {{ partial:statamic-peak-tools::snippets/noscript }}
   {{ partial:statamic-peak-tools::navigation/skip_to_content }}
   {{ partial:statamic-peak-tools::components/toolbar }}
-  {{ partial:statamic-peak-tools::components/picture :image="texture:texture" class="fixed z-0 inset-0 opacity-100 w-full h-full object-cover object-center pointer-events-none" sizes="(min-width: 1280px) 1280px, (min-width: 768px) 100vw, 100vw" }}
+  {{ partial:statamic-peak-tools::components/picture :image="texture:texture" class="fixed z-0 inset-0 opacity-70 w-full h-full min-h-[100lvh] object-cover object-center pointer-events-none" sizes="(min-width: 1280px) 1280px, (min-width: 768px) 100vw, 100vw" }}
 
   {{ if is_entry && collection == 'clients' }}
     <nav class="lg:hidden fixed top-0 left-0 right-0 z-20 transition-transform duration-300"

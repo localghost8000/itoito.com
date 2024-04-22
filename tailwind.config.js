@@ -28,7 +28,6 @@ module.exports = {
     },
     fontFamily: {
       sans: [["Europa Grotesk", "sans-serif"]],
-      mono: [["Monument Grotesk", "sans-serif"]],
     },
   },
   content: [

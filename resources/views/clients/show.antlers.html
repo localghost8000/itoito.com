@@ -6,29 +6,31 @@
   {{ /section:left_content }}
 
   {{ section:right_content }}
-    <div class="flex flex-col py-4 md:py-6 lg:py-2 gap-6 lg:gap-0">
-      {{ photography limit="1" }}
-          <figure 
-            class="lg:px-2">
+    <div class="py-4 md:py-6 lg:py-2">
+      <div class="flex flex-col gap-6 lg:gap-0">
+        {{ photography limit="1" }}
+            <figure 
+              class="lg:px-2">
+              {{ partial src="statamic-peak-tools::components/picture" class="w-full h-auto" :image="url" cover="false" sizes="(min-width: 1024px) 35vw, 100vw" lazy="true" }}
+            </figure>
+            <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px my-2"></div>
+        {{ /photography }}
+        <div class="lg:hidden">
+          {{ partial:partials/description }}
+        </div>
+
+        {{ photography offset="1" }}
+          <figure class="lg:px-2">
             {{ partial src="statamic-peak-tools::components/picture" class="w-full h-auto" :image="url" cover="false" sizes="(min-width: 1024px) 35vw, 100vw" lazy="true" }}
           </figure>
-          <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px my-2"></div>
-      {{ /photography }}
-      <div class="lg:hidden">
-        {{ partial:partials/description }}
-      </div>
-
-      {{ photography offset="1" }}
-        <figure class="lg:px-2">
-          {{ partial src="statamic-peak-tools::components/picture" class="w-full h-auto" :image="url" cover="false" sizes="(min-width: 1024px) 35vw, 100vw" lazy="true" }}
-        </figure>
-        {{ if !last }}
-          <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px my-2"></div>
-        {{ /if }}
-      {{ /photography }}
-
-      <footer class="relative z-10 lg:hidden border-t border-black">
-        {{ partial:layout/header }}
+          {{ if !last }}
+            <div aria-hidden="true" class="hidden lg:block border-t border-black mx-px my-2"></div>
+          {{ /if }}
+        {{ /photography }}
+        {{ partial:navigation/client_list }}
+        </div>
+        <footer class="relative z-10 lg:hidden">
+          {{ partial:layout/header }}
       </footer>
       <!-- Invisible div for spacing -->
       <div class="block lg:hidden aspect-video"></div>
