@@ -1,0 +1,24 @@
+<div class="text-base md:text-lg lg:text-xl 3xl:text-2xl 4xl:text-3xl lg:h-[60px] 3xl:h-[80px] lg:mt-2">
+  <ul class="relative z-10 flex flex-col w-full">
+    {{ collection from="clients" sort="order" paginate="false" url:not="{ url }" }}
+    <li class="h-[60px]">
+      {{ if first }}
+      <div class="lg:mx-px border-b border-black h-px"></div>
+      {{ /if }}
+      <a class="h-[60px] flex items-center justify-between lg:px-2 hover:bg-green w-full" href="{{ url }}">
+        <span>{{ title }}</span>
+        {{ if order }}
+        <div class="relative z-10 ml-auto lg:px-2 py-3">
+          {{ if order < 10 }}
+            <span>0{{ order }}</span>
+          {{ else }}
+            <span>{{ order }}</span>
+          {{ /if }}
+        </div>
+      {{ /if }}
+      </a>
+    </li>
+    <div class="{{ if last }}lg:hidden{{/if}} lg:mx-px border-b border-black h-px"></div>
+    {{ /collection }}
+  </ul>
+</div>
