@@ -1,9 +1,9 @@
-<div class="text-base md:text-lg lg:text-xl 3xl:text-2xl 4xl:text-3xl lg:h-[60px] 3xl:h-[80px] lg:mt-2">
+<div class="text-base md:text-lg lg:text-xl 3xl:text-2xl 4xl:text-3xl lg:h-[60px] 3xl:h-[80px] {{ unless is_homepage || response_code === 404 }}lg:mt-2{{ /unless }}">
   <ul class="relative z-10 flex flex-col w-full">
     {{ collection from="clients" sort="order" paginate="false" url:not="{ url }" }}
     <li class="h-[60px]">
       {{ if first }}
-      <div class="lg:mx-px border-b border-black h-px"></div>
+      <div class="{{ if is_homepage || response_code === 404 }}lg:hidden{{ /if }} lg:mx-px border-b border-black h-px"></div>
       {{ /if }}
       <a class="h-[60px] flex items-center justify-between lg:px-2 hover:bg-green w-full" href="{{ url }}">
         <span>{{ title }}</span>
@@ -18,7 +18,7 @@
       {{ /if }}
       </a>
     </li>
-    <div class="{{ if last }}lg:hidden{{/if}} lg:mx-px border-b border-black h-px"></div>
+    <div class="{{ if last }}{{ unless is_homepage || response_code === 404 }}lg:hidden{{ /unless }}{{/if}} lg:mx-px border-b border-black h-px"></div>
     {{ /collection }}
   </ul>
 </div>
