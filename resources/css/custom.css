@@ -17,6 +17,10 @@
       .item-hidden {
         @apply opacity-0;
       }
+
+      ::selection {
+        @apply bg-green text-black;
+      }
 }
 
 @layer components {
