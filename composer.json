@@ -17,7 +17,7 @@
         "statamic/cms": "^4.0",
         "studio1902/statamic-peak-browser-appearance": "^3.0",
         "studio1902/statamic-peak-seo": "^8.0",
-        "studio1902/statamic-peak-tools": "^5.0"
+        "studio1902/statamic-peak-tools": "^6.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
