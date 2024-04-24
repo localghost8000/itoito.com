@@ -2,7 +2,7 @@
 id: 4b37bbda-2eb9-40a6-af81-94f924186f4d
 blueprint: client
 title: 'The Benton'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+description: 'A profusion of kangaroo ferns, pothoses and variegated spider plants forms hanging canopies in the lofty interior spaces of The Benton, a high-end residential community in Santa Clara. The rooftop pool cabana is a light-filled retreat where plush mid-century furnishings live amid a leafy fern grove overhead. In the leasing lounge, a minimal sofa fronts a custom planter where calathea plants abound.'
 photography:
   - client-the-benton/crookednest-benton-01.jpg
   - client-the-benton/crookednest-benton-02.jpg
@@ -22,7 +22,7 @@ photography:
   - client-the-benton/crookednest-benton-16.jpg
   - client-the-benton/crookednest-benton-17.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1713508207
+updated_at: 1713916791
 client_script: writing/benton.png
 scribble: scribbles/green-dark-scribble-02.png
 ---

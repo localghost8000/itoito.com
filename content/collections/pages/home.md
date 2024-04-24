@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1713508168
+updated_at: 1713916855
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -21,7 +21,7 @@ page_builder:
             text: 'Hey this is a litte articles'
     type: article
     enabled: true
-description: 'ITO ITO is an interior plant design studio based in the San Francisco Bay Area. Led by Candace Silvey, ITO ITO plans and implements site-specific environments that enhance the human experience. Over [x] years the studio has collaborated with architects, interior designers and independent artists and craftspeople to realize projects for residential, commercial and hospitality spaces.'
+description: 'ITO ITO is an interior plant design studio based in the San Francisco Bay Area. Led by Candace Silvey, ITO ITO plans and implements site-specific environments that enhance the human experience. For over 15 years the studio has collaborated with architects, interior designers and independent artists and craftspeople to realize projects for residential, commercial and hospitality spaces.'
 scribble: scribbles/tri-color-scribble-03.png
 seo_title: 'ITO ITO'
 ---
