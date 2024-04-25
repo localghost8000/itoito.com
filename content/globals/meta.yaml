@@ -13,4 +13,5 @@ data:
           type: text
           text: 'plant design and landscaping'
   contact: 'For inquiries'
-  email: hello@itoito.com
+  email: hello@itoitocreative.com
+  use_label: false

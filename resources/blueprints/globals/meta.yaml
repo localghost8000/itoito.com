@@ -56,3 +56,30 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: use_label
+            field:
+              default: false
+              type: toggle
+              display: 'Use Label'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: email_label
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Email Label'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              width: 50
+              if:
+                use_label: 'equals true'
