@@ -9,7 +9,7 @@ photography:
   - client-the-bower/bower-ito-ito-03.jpg
   - client-the-bower/bower-ito-ito-04.jpg
 updated_by: b5d10adb-c2e2-48f2-ada3-f45ee9633b3b
-updated_at: 1714449287
-scribble: scribbles/blue-bright-scribble-03.png
+updated_at: 1714450455
+scribble: scribbles/tri-color-dark-scribble-02.png
 client_script: writing/bower.png
 ---
