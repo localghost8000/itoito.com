@@ -46,7 +46,7 @@
       {{ /if }}
       {{ yield:left_content }}
       {{# Scribble (only shown on desktop) #}}
-      <div class="hidden lg:block absolute bottom-0 left-0 w-1/2 max-h-[400px] z-0 pointer-events-none user-select-none">
+      <div class="hidden lg:block absolute bottom-0 left-0 w-1/2 max-h-[200px] 2xl:max-h-[400px] z-0 pointer-events-none user-select-none">
         {{ partial:statamic-peak-tools::components/picture :image="scribble" class="w-full" sizes="(min-width: 1280px) 980px, (min-width: 768px) 50vw, 90vw" }}
       </div>
     </div>
